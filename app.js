@@ -10,7 +10,6 @@ io.on("connection", function (socket){
   console.log("Someone has entered the chat!");
 });
 
-
 app.use("/jquery", express.static("node_modules/jquery/dist/"));
 app.use("/socket", express.static("node_modules/socket.io-client/dist/"));
 
